@@ -48,7 +48,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/eivee/Saloon"
+            "url": "https://github.com/eivee/saloon"
         }
     ],
     "extra": {
