@@ -21,7 +21,7 @@
     "require": {
         "php": "^8.0|^8.1",
         "illuminate/console": "^8.0 || ^9.0 || ^10.0",
-        "sammyjo20/saloon": "dev-l10"
+        "sammyjo20/saloon": "dev-l10compat"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.5",
