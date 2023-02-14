@@ -19,14 +19,13 @@
     ],
     "homepage": "https://github.com/sammyjo20/saloon-laravel",
     "require": {
-        "php": "^8.0",
-        "illuminate/console": "^8.0 || ^9.0",
-        "illuminate/support": "^8.0 || ^9.0",
-        "sammyjo20/saloon": "^1.6"
+        "php": "^8.0|^8.1",
+        "illuminate/console": "^8.0 || ^9.0 || ^10.0",
+        "sammyjo20/saloon": "dev-l10"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.5",
-        "orchestra/testbench": "^6.24 || ^7.7",
+        "orchestra/testbench": "^6.24 || ^7.7 || ^8.0",
         "pestphp/pest": "^1.21"
     },
     "minimum-stability": "stable",
@@ -46,6 +45,12 @@
         },
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/eivee/Saloon"
+        }
+    ],
     "extra": {
         "laravel": {
             "aliases": {
